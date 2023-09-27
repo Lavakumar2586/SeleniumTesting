@@ -1,0 +1,14 @@
+package lava.OrangeHRM;
+
+import org.testng.annotations.Test;
+
+public class OrangeHrmAddEmployee extends OrangeHrmLogin {
+@Test
+public void AddEmployee1() {
+OrangeHrmAddEmployee e = new OrangeHrmAddEmployee();
+e.AppLaunch();
+
+
+	
+}
+}

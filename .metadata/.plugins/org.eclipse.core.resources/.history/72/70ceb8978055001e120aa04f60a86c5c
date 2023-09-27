@@ -1,0 +1,25 @@
+package lava.OrangeHRM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class OrangeHrmLogin extends OrangeHrmUrl {
+
+	public void Login() {
+// id="txtUsername" 
+		By UsernameProperty = By.id("txtUsername");
+	WebElement Username =	driver.findElement(UsernameProperty);
+		Username.clear();
+		Username.sendKeys("Lavakumar");
+// name="txtPassword" 
+	By	PasswordProperty = By.name("txtPassword");
+	WebElement Password =	driver.findElement(PasswordProperty);
+	Password.clear();
+	Password.sendKeys("Omvinayaka1$");
+// class="button" 	
+	By	LoginBtnProperty = By.className("button");
+   WebElement LoginBtn = 	driver.findElement(LoginBtnProperty);
+   LoginBtn.click();
+   
+	}
+}

@@ -1,0 +1,12 @@
+package lava.OrangeHRM;
+
+
+import org.testng.annotations.Test;
+
+public class OrangeHrmAddEmployee extends OrangeHrmUrl {
+public static void main(String[] args) {
+
+
+	
+}
+}

@@ -1,0 +1,11 @@
+package lava.OrangeHRM;
+
+public class OrangeHrmAddEmployee extends OrangeHrmUrl {
+public static void main(String[] args) {
+
+OrangeHrmAddEmployee e = new OrangeHrmAddEmployee();
+e.AppLaunch();
+
+	
+}
+}

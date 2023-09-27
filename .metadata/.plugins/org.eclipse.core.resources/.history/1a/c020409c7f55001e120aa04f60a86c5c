@@ -1,0 +1,8 @@
+package lava.OrangeHRM;
+
+public class OrangeHrmLogin extends OrangeHrmUrl {
+
+	public void Login() {
+		
+	}
+}

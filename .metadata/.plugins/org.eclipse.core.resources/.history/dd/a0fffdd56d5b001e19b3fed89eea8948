@@ -1,0 +1,8 @@
+package com.BaseTest;
+
+public class BaseTest {
+	public void OrangeHrm(){
+		System.setProperty("webdriver.chrome.driver", "");
+	}
+
+}

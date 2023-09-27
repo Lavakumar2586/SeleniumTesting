@@ -1,0 +1,15 @@
+<suite name ="World Clock Testing" parallel="tests">
+
+	<test name= "ReadWorldClockDiffCountryNamesInSingleColumn">
+	    <classes>
+		<class name ="lava.WoldClock.ReadWorldClockDiffCountryNamesInSingleColumn"/>
+	    </classes>
+        </test>
+
+	<test name= "WorldClockBrowser1">
+	    <classes>
+		<class name ="lava.WoldClock.WorldClockBrowser1"/>
+	    </classes>
+        </test>
+
+</suite>

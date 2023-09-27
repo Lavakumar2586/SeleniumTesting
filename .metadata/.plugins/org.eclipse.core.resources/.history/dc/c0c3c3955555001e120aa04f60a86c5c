@@ -1,0 +1,13 @@
+
+
+<suite name = "OrangeHrm Application Testing">
+	
+	<test name  = " Bing">
+		<classes>
+			<class name= "com.OrangeHRMApplicationTestcases.OrangeHrm_EmployeeListTest"/>
+		</classes>
+	</test>
+	
+
+</suite>	
+	

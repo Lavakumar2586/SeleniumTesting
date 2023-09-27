@@ -1,0 +1,14 @@
+package com.BaseTest;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+WebDriver driver;
+	public void OrangeHrm(){
+		System.setProperty("webdriver.chrome.driver", "./OrangeHrmApplication/BrowserDriverFiles/chromedriver.exe");
+	driver.get("http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard");
+driver.manage().window().maximize();
+
+	}
+
+}

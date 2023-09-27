@@ -1,0 +1,16 @@
+package lava.OrangeHRM;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHrmUrl {
+	public static void main(String[] args) {
+System.setProperty("webdriver.chrome.driver", "./BrowserDriverFiles/chromedriver.exe");
+	ChromeDriver driver = new ChromeDriver();
+String ApplicationURL	=	"http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+driver.get(ApplicationURL);
+	driver.manage().window().maximize();
+	driver.close();
+	
+	}
+
+}

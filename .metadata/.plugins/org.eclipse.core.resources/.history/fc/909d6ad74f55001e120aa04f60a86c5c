@@ -1,0 +1,22 @@
+package com.OrangaHRMApplicationTestcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class OrangeHrm_LoginTest {
+	
+//for trial use google application
+	@Test
+	public void GoogleLaunch() {
+		System.setProperty("webdriver.chrome.driver", "F:\\Selenium Workspace\\Lava1\\BrowserDriverFiles\\chromedriver.exe");
+	WebDriver driver;
+	driver = new ChromeDriver();
+	
+	driver.get("https://google.com");
+	Thread.sleep(5000);
+	driver.quit();
+	
+	}
+
+}

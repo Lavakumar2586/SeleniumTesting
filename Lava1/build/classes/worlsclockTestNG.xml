@@ -1,0 +1,9 @@
+<suite name ="OrangeHRM Application Testing">
+
+	<test name= "LogInTest">
+	    <classes>
+		<class name ="lava.WoldClock.ReadWorldClockDiffCountryNamesInSingleColumn"/>
+	    </classes>
+        </test>
+
+</suite>

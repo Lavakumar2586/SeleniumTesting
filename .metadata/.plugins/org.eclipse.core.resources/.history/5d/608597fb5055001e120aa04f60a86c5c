@@ -1,0 +1,3 @@
+<suitename = "OrangeHrm Application Testing" parallel="tests">
+	<test name  = " loginTest">
+	

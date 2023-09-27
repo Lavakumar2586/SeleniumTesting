@@ -1,0 +1,21 @@
+package com.OrangeHRMApplicationTestcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class OrangeHrm_AddEmployeeTest {
+	//for trial use apsrtc application
+	@Test
+	public void GoogleLaunch() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "F:\\Selenium Workspace\\Lava1\\BrowserDriverFiles\\chromedriver.exe");
+	WebDriver driver;
+	driver = new ChromeDriver();
+	
+	driver.get("https://apsrtc.com");
+	Thread.sleep(5000);
+	driver.quit();
+
+}
+
+}

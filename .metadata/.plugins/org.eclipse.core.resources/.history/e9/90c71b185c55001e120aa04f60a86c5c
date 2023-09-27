@@ -1,0 +1,26 @@
+
+
+<suite name = "OrangeHrm Application Testing"   parallel="tests">
+	
+<test name  = " Google">
+		<classes>
+			<class name= "com.OrangeHRMApplicationTestcases.OrangeHrm_LoginTest"/>
+		</classes>
+	</test>
+	
+
+<test name  = " Bing">
+		<classes>
+			<class name= "com.OrangeHRMApplicationTestcases.OrangeHrm_EmployeeListTest"/>
+		</classes>
+	</test>
+
+	<test name  = "Apsrtc">
+		<classes>
+			<class name= "com.OrangeHRMApplicationTestcases.OrangeHrm_AddEmployeeTest"/>
+		</classes>
+	</test>	
+	
+
+</suite>	
+	

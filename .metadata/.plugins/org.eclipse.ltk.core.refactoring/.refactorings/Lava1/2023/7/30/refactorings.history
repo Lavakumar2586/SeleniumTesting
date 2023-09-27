@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lava.Basic.ChromeDriver.java&apos; to &apos;BasicChrome.java&apos;&#x0D;&#x0A;- Original project: &apos;Lava1&apos;&#x0D;&#x0A;- Original element: &apos;lava.Basic.ChromeDriver.java&apos;&#x0D;&#x0A;- Renamed element: &apos;lava.Basic.BasicChrome.java&apos;" description="Rename compilation unit &apos;ChromeDriver.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lava.Basic{ChromeDriver.java" name="BasicChrome.java" references="false" stamp="1690612733739" version="1.0"/>
+</session>
